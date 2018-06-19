@@ -1,0 +1,25 @@
+:root {
+    font-size: 12px;
+}
+
+.forms{
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to right, rgb(86, 206, 228), black);
+    
+}
+@media all and (min-width: 600px) {
+    .forms{
+        padding: 10px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        background: linear-gradient(to right, rgb(86, 206, 228), black);
+    }
+}
+
+#photo{
+    padding: 2px;
+}
